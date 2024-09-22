@@ -10,11 +10,8 @@ See at https://mary-ui.com/docs/demos.
 
 ## Sponsor
 
-Let's keep pushing it, [sponsor me](https://github.com/sponsors/robsontenorio) ❤️
+Let's keep pushing it, [sponsor me]❤️
 
-## Follow me
-
-[@robsontenorio](https://twitter.com/robsontenorio)
 
 ## Install
 
@@ -23,7 +20,7 @@ This demo is made with Laravel, Livewire, Volt and Mary.
 Clone the repository.
 
 ```bash
-git clone git@github.com:robsontenorio/flow.mary-ui.com.git
+
 ```
 
 Create `.env` from `.env.example` and adjust few vars.
@@ -40,7 +37,6 @@ Install, migrate and start.
 composer start
 ```
 
-**Done! See http://localhost:8217**
 
 ## Note
 
@@ -51,3 +47,4 @@ there.
 At the same time we have placed our TinyMCE API KEY inside the default `app.blade.php`  template to make `<x-editor />` work out of the box. You should create a new one on TinyMCE
 site and use it
 instead.
+{{--    https://www.tiny.cloud/my-account/domains/   registre o dominio local para testes [http://127.0.0.1:8000].--}}
