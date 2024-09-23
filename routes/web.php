@@ -18,6 +18,7 @@ use Livewire\Volt\Volt;
 Volt::route('/support-us', 'support-us');
 
 // Login
+Volt::route('/register', 'register');
 Volt::route('/login', 'login')->name('login');
 
 //Logout
@@ -25,7 +26,6 @@ Route::get('/logout', function () {
     auth()->logout();
     request()->session()->invalidate();
     request()->session()->regenerateToken();
-
     return redirect('/');
 });
 
